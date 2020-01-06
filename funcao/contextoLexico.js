@@ -6,7 +6,7 @@ function minhaFuncao(){
 
 function exec(){
     const valor = 'Local'
-    minhaFuncao()
+    minhaFuncao() //A função leva dentro dela a informações de quando foi criado, sendo assim carregando o 'valor=Global'
 }
 
 exec()
